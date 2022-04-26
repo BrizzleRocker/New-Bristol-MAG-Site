@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "when": {
+      "type": "datetime"
+    },
+    "info": {
+      "type": "richtext"
+    },
+    "event_type": {
+      "type": "enumeration",
+      "enum": [
+        "Rides",
+        "Meetings",
+        "Shows",
+        "Rally"
+      ]
+    }
+  }
+}
